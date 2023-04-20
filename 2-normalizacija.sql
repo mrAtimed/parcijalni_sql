@@ -11,7 +11,6 @@ CREATE TABLE `users` (
 	`ime` VARCHAR(255) NULL,
 	`prezime` VARCHAR(255) NULL,
 	-- mjesto, adresa, boroj, telefon, email...
-	`radno_mjesto` INT NULL,
 	`voditelj` BOOLEAN NULL DEFAULT 'false',
 	`placa` int(255) DEFAULT NULL
 
